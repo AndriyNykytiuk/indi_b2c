@@ -1,0 +1,52 @@
+.header {
+width:100%;
+  background-image: url('../img/bgimg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.header-title{
+    position: relative;
+    padding: 50px 60px;
+    max-width: 845px;
+}
+.header-title h1{
+        font-family: 'Inter';
+        font-size: clamp(24px,9vw,48px);
+        font-weight: 800;
+        width: 100%;
+        text-align: center;
+}
+.header-subtitle{
+    max-width: 845px;
+    padding: 10px 40px;
+    margin-bottom: 16px;
+
+}
+.header-subtitle h2{
+    width: 100%;
+    text-align: center;
+    color: #667085;
+    font-family: "Inter";
+     font-size: clamp(12px,2vw,24px);
+    font-weight:  300;
+
+}
+.header-img {
+  position: relative;
+  width: 100%;
+ 
+  overflow: visible; 
+  padding-bottom: 60%;/* або прибери overflow зовсім */
+}
+.header-img img {
+  width: 100%;
+  position: absolute;
+}
+
+
+@media screen and (max-width:768px) {
+    .header-title {
+        padding-top: 18%;
+    }
+}

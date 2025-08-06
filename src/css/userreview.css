@@ -1,0 +1,61 @@
+.user-review-item {
+    max-width: 320px;
+}
+.item-author{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.user-review-title-block
+{
+            font-family: 'Inter';
+        font-size: clamp(24px,9vw,48px);
+        font-weight: 800;
+        width: 100%;
+        text-align: center;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #FF6138;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.user-review{
+    position: relative;
+}
+.swiper-button-block{
+    position: absolute;
+    bottom: 0;
+    
+}
+    .custom-next,
+    .custom-prev {
+         color:#D3D4D4;
+         cursor: pointer;
+         transition: all 0.3s;
+         transform:scale(1.2);
+         -webkit-transform:scale(1.2);
+         -moz-transform:scale(1.2);
+         -ms-transform:scale(1.2);
+         -o-transform:scale(1.2);
+}
+    .custom-next:hover{
+        color: black;
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+}
+ 
+    .custom-prev:hover{
+        color: black;
+
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+}

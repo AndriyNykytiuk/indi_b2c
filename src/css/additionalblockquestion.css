@@ -1,0 +1,40 @@
+.additional-block-title h3{
+text-align: center;
+width: 100%;
+font-family: "Inter";
+font-weight: 900;
+font-size: clamp(24px,3vw,48px);
+}
+
+.additional-block-text{
+    text-align: center;
+    color: #667085;
+    width: 100%;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: clamp(12px,2vw,18px);
+    margin-bottom: 20px;
+}
+
+.additional-block-button a{
+     border: #E6E6E6 solid 2px;
+  
+    border-radius: 14px;
+    padding: 13px 30px;
+    
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+
+.additional-block-button a:hover{
+       color: #FF6138;
+    border:2px solid #FF6138;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}

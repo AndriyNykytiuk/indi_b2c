@@ -1,0 +1,6 @@
+.item__text:not(:last-child){
+    margin-bottom:15px;
+}
+.why-indi__items{
+    width:100%;
+}
