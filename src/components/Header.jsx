@@ -11,7 +11,7 @@ const Header = () => {
             <Navbar/>
             <div className='header-title '>
                 <h1>
-                    Перетвори кожну покупку на виграш!
+                    Перетвори покупку на <strong>виграш!</strong>
                 </h1>
             </div>
             <div className='header-subtitle '>

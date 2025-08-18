@@ -109,7 +109,7 @@
   flex-direction: column;
   background-color: #FFFF;
   width: 90%;
-  height: 100vh;
+  height: 85%;
   padding-top: 90px;
   z-index: 1;
   transition: left 0.3s ease;

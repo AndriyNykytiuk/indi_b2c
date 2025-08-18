@@ -4,14 +4,14 @@ export const animateItem1 = {
     hidden:{
         opacity:0,
         x: 0,
-         scale: 0.95,
+         scale: 0.65,
       
     },
     visible:{
         opacity: 1,
           scale: 1,
     transition: {
-      duration: 0.7,
+      duration: 0.9,
       ease: 'easeOut',
     },
     }
@@ -38,7 +38,7 @@ export const animateItem2 = {
     hidden:{
         opacity:0,
         x: 0,
-         scale: 0.95,
+         scale: 0.65,
       
     },
     visible:{
@@ -46,7 +46,7 @@ export const animateItem2 = {
           scale: 1,
     transition: {
         delay:2,
-      duration: 0.7,
+      duration: 0.9,
       ease: 'easeOut',
     },
     }
@@ -74,15 +74,15 @@ export const animateItem3 = {
     hidden:{
         opacity:0,
         x: 0,
-         scale: 0.95,
+         scale: 0.65,
       
     },
     visible:{
         opacity: 1,
           scale: 1,
     transition: {
-        delay:3,
-      duration: 0.7,
+        delay:4.2,
+      duration: 0.9,
       ease: 'easeOut',
     },
     }
@@ -100,8 +100,8 @@ export const animateItemArrow3 = {
           width: '13vw',
       
     transition: {
-        delay:3.5,
-      duration: 0.7,
+        delay:4.9,
+      duration: 0.9,
       ease: 'easeOut',
     },
     }
@@ -111,15 +111,15 @@ export const animateItem4 = {
     hidden:{
         opacity:0,
         x: 0,
-         scale: 0.95,
+         scale: 0.65,
       
     },
     visible:{
         opacity: 1,
           scale: 1,
     transition: {
-        delay:4,
-      duration: 0.7,
+        delay:6.1,
+      duration: 0.9,
       ease: 'easeOut',
     },
     }

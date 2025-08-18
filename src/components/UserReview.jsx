@@ -8,7 +8,7 @@ import 'swiper/css'
 import '../css/userreview.css'
 const UserReview = () => {
   return (
-    <section className='user-review px-4'>
+    <section className='user-review px-4 mb-[100px]'>
         <div className='user-review-container mx-auto max-w-[1280px] rounded-[64px] flex flex-col items-center justify-center pt-10 bg-[#F9FAFB]'>
             <div className='user-review-title-block'>
                 <h2>

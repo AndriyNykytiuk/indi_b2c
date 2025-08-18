@@ -1,3 +1,6 @@
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
 .swiper-pict{
 
     display: flex;
@@ -10,4 +13,6 @@
 
 .swiper-pict img{
    width: 100%;
+  height: auto;
+  object-fit: contain;
 }

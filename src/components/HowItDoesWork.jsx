@@ -12,7 +12,7 @@ const HowItDoesWork = () => {
     <section>
         < div className='how-it-works-container mx-auto max-w-[1280px] flex flex-col items-center justify-center mt-20 mb-30'>
             <div className='how-it-works-title'>
-                <h2 className='text-center text-2xl font-regular  md:text-center text-4xl font-bold block-title'>Як це працює</h2>
+                <h2 className='text-center text-xl font-regular  md:text-center text-4xl font-bold block-title'>Як це працює</h2>
             </div>
             <div className='how-it-works-text'>
                 <p className='text-center text-[#667085]'>Просто грай у телефоні або гуляй містом, збирай знижки, подарунки та бонуси.</p>

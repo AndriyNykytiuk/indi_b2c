@@ -65,16 +65,16 @@ const FAQ = () => {
       {/* Питання-Відповіді */}
       <ul className="space-y-4">
         {data[activeTopic].map((item, idx) => (
-          <li key={idx} className="border-b-[1px]  shadow-sm">
+          <li key={idx} className="border-b-[1px] px-2 shadow-sm">
             <div className='flex items-center gap-2'>
                 <h4 className='text-[#667085] text-xl font-medium opacity-60 '>{String(idx + 1).padStart(2, '0')}</h4>
-                 <button
+              <button
               onClick={() => toggleAnswer(idx)}
               className="w-full text-left px-4 py-3 font-regular cursor-pointer transition-all duration-300"
             >
               {item.q}
             </button>
-            <div>
+            <div onClick={() => toggleAnswer(idx)}>
                 {openAnswerIdx===idx ? <IoIosArrowDown/>: <IoIosArrowUp/>}
             </div>
             </div>
@@ -82,7 +82,7 @@ const FAQ = () => {
             {openAnswerIdx === idx && (
                  <motion.div
                     initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: 'auto' }}
+                    animate={{ opacity: 1, height: 'auto',overflow: 'hidden' }}
                     exit={{ opacity: 0, height: 0 }}
                     transition={{ duration: 0.4 }}
                     className="px-4 pb-3 border-t text-gray-600"

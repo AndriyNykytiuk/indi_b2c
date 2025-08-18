@@ -1,11 +1,12 @@
 import React from 'react'
+import '../css/features.css'
 
 const Features = () => {
   return (
     <section className='features mb-[100px]'>
       <div className='features-container mx-auto max-w-[1280px] flex flex-col items-center justify-center pt-10'>
         <div className='features-title-block text-center mb-8 w-full md:w-1/2'>
-          <h2 className='text-3xl font-bold'>Наші фішки</h2>
+          <h2 className='fetures-title'>Наші фішки</h2>
           <p className='text-lg text-gray-600 max-w-[500px] mx-auto mt-4'>
             INDI — це більше, ніж знижки. Це новий досвід покупок, де вигода стає грою.
           </p>
@@ -21,9 +22,9 @@ const Features = () => {
                 <h4 className='text-xl font-semibold'>Втягуюсь з першого кліка</h4>
                 </div>
                 <div className='left-item text'>
-                <p className='text-[#9f9f9f]'>
-                    Пошук подарунків через AR; ретро-ігри, що завжди заряджають емоціями; та багато іншого.
-                </p>
+                  <p className='text-[#9f9f9f]'>
+                      Пошук подарунків через AR; ретро-ігри, що завжди заряджають емоціями; та багато іншого.
+                  </p>
                </div>
              </div>
              <div className='features-content-item left p-4 max-w-[350px] flex flex-col items-start'>

@@ -8,7 +8,7 @@ import '../css/bussinespart.css'
 
 const BussinesPart = () => {
   return (
-    <section className='bussines-part'>
+    <section className='bussines-part mb-[100px]'>
 
         <div className='bussines-part-container mx-auto max-w-[1280px] flex flex-col items-center justify-center pt-10'>
             <div className='bussines-part__title-block'>
