@@ -17,9 +17,8 @@ const Footer = () => {
                     </div>
                     <div className="top-rules">
                         <ul className='top-list'>
-                            <li><a href="#">Політика конфіденційності</a></li>
-                            <li><a href="#">Умови користування</a></li>
-                            <li><a href="#">Підтримка</a></li>
+                      
+                           
                             <li><a href="#">Instagram </a></li>
                             <li><a href="#">TikTok</a></li>
                             <li><a href="#">Telegram</a></li>
@@ -40,6 +39,7 @@ const Footer = () => {
                         <li><h4>© 2025 INDI. Всі права захищені.</h4></li>
                         <li><a href="#">Політика конфіденційності</a></li>
                         <li><a href="#">Умови обслуговування</a></li>
+                         <li><a href="#">Підтримка</a></li>
                         <li><a href="#">Налаштування Cookies</a></li>
                     </ul>
                 </div>

@@ -35,19 +35,19 @@
 }
 .top-list a:hover,
 .bottom-list a:hover{
-    color: #6731FF;
+    color: #FF6138;
 }
 .top-list a:before,
 .bottom-list a:before{
       
     position: absolute;
     content: '';
-    background-color: #6138ff;
+    background-color: #FF6138;
     top:100%;
     left:0;
     width:0%;
     height: 3px;
-
+ transition: all 0.3s;
 }
 .top-list a:hover::before,
 .bottom-list a:hover::before{

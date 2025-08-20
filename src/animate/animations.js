@@ -28,7 +28,7 @@ export const animateItemArrow1 = {
           width: '13vw',
       
     transition: {
-        delay:0.5,
+        delay:2.5,
       duration: 0.7,
       ease: 'easeOut',
     },
@@ -64,7 +64,7 @@ export const animateItemArrow2 = {
           width: '13vw',
       
     transition: {
-        delay:2.5,
+        delay:3.0,
       duration: 0.7,
       ease: 'easeOut',
     },
@@ -100,8 +100,8 @@ export const animateItemArrow3 = {
           width: '13vw',
       
     transition: {
-        delay:4.9,
-      duration: 0.9,
+        delay:3.5,
+      duration: 0.7,
       ease: 'easeOut',
     },
     }
@@ -117,6 +117,7 @@ export const animateItem4 = {
     visible:{
         opacity: 1,
           scale: 1,
+         
     transition: {
         delay:6.1,
       duration: 0.9,

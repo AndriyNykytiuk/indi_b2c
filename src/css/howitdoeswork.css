@@ -10,7 +10,7 @@
   display: block;
 width:13vw;
     height: 13px;
-    top: 12%;
+    top: 9%;
     left: 72%;
     border-radius: 5px;
     background-image: url('../img/connect.svg');
@@ -24,7 +24,7 @@ width:13vw;
     padding: 15px;
     width: 60px;
     height:60px;
-     -webkit-border-radius:; -moz-border-radius:; -ms-border-radius:; -o-border-radius:;
+   
 }
 .item-text p:not(:last-child) {
     text-align: center;

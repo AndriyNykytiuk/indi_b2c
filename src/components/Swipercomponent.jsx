@@ -10,7 +10,7 @@ import '../css/slider.css'
 
 const Swipercomponent = () => {
   return (
-    <section '>
+    <section className='swiper-section'>
 
         <div className='swiper-container  flex  align-center gap-3 pt-[30px] pb-[30px]'>
          

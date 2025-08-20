@@ -20,8 +20,12 @@ const HowItDoesWork = () => {
             <div className='how-it-works-items item mt-10 grid grid-cols-1 md:grid-cols-4 md:gap-10'>
                <motion.div className='item-container flex flex-col items-center justify-start gap-10'
                 variants={animateItem1}
-                initial="hidden"
-                animate="visible"
+                   initial={{ opacity: 0, y: 100 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.9, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.1 }}
+                
+         
                 >
                     <div className='item-img'>
                         <img src={downl} alt="Download" />
@@ -33,7 +37,7 @@ const HowItDoesWork = () => {
                     </div>
                     <motion.div className='span'
                     variants={animateItemArrow1}
-                    initial="hidden"
+                       initial="hidden"
                     animate="visible"
                  
                     ></motion.div>
@@ -41,8 +45,11 @@ const HowItDoesWork = () => {
              
                 <motion.div className='item-container flex flex-col items-center justify-start gap-10'
                 variants={animateItem2}
-                initial="hidden"
-                animate="visible"
+                  initial={{ opacity: 0, y: -100 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.9, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }}
+                
                 >
                     <div className='item-img'>
                         <img src={finger} alt="Download" />
@@ -62,8 +69,11 @@ const HowItDoesWork = () => {
 
                 <motion.div className='item-container flex flex-col items-center justify-start gap-10'
                 variants={animateItem3}
-                initial="hidden"
-                animate="visible"
+                  initial={{ opacity: 0, y: 100 }}
+                   whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.9, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.1 }}
+             
                 >
                     <div className='item-img'>
                         <img src={gamepad} alt="Download" />
@@ -81,8 +91,11 @@ const HowItDoesWork = () => {
                 </motion.div>
                 <motion.div className='item-container flex flex-col items-center justify-start gap-10'
                 variants={animateItem4}
-                initial="hidden"
-                animate="visible"
+                   initial={{ opacity: 0, y: -100 }}
+                   whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.9, ease: "easeOut" }}
+                    viewport={{ once: true, amount: 0.5 }}
+                
                 >
                     <div className='item-img'>
                         <img src={baks} alt="Download" />
