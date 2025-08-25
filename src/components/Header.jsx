@@ -1,10 +1,10 @@
-import React from 'react'
+import React,{useState} from 'react'
 import SimpleParallax from 'simple-parallax-js';
 import Navbar from './Navbar'
 import hand from '../img/hand.png'
 import '../css/header.css'
 const Header = () => {
-  
+  const [isDownload, setIsDownload] = useState(false);
   return (
     <header className='header '>
         <div className='header-container mx-auto max-w-[1280px] sm:px-6 flex flex-col items-center justify-center pt-[10px] '>
@@ -19,7 +19,15 @@ const Header = () => {
                    Збирай знижки, подарунки та бонуси, просто граючи у телефоні або гуляючи містом.
                 </h2>
             </div>
-            <div>
+            <div className='relative'
+            onMouseEnter={() => setIsDownload(true)}
+            onMouseLeave={() => setIsDownload(false)}
+            >
+            {isDownload && (
+              <div className="absolute top-[0px] left-40 bg-black p-2 rounded-xl shadow">
+                <p className="text-bold text-white">в процесі наповнення</p>
+              </div>
+            )}
                 <a href="#" className='button mb-5'>Завантажити</a>
             </div>
            

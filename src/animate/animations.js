@@ -125,3 +125,17 @@ export const animateItem4 = {
     },
     }
 }
+
+export const item1Animate ={
+
+}
+export const item2Animate={
+
+}
+export const item3Animate={
+  
+}
+
+export const visibleTextBlock={
+  
+}

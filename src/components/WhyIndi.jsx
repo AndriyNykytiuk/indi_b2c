@@ -17,7 +17,7 @@ function WhyIndi() {
                 </div>
             </div>
             <div className=' why-indi__items  grid grid-cols-1 place-items-center place-justify-center md:grid-cols-3 gap-[20px] max-w-[1055px] m-10'>
-                <div className='why-indi__item  max-w-[370px] max-h-[390px] p-[5px] bg-[#FFFFFF]  rounded-[64px] shadow-md flex flex-col items-center justify-start gap-[15px] md:items-start p-[60px]'>
+                <div className='why-indi__item  max-w-[370px] max-h-[390px] p-[5px] bg-[#FFFFFF]  rounded-[64px] shadow-md flex flex-col items-center justify-start flex-grow gap-[15px] md:items-start p-[60px]'>
                     <div className='item__image bg-[#F9FAFB] p-[15px] rounded-[32px] w-[88px] h-[88px] flex items-center justify-center'>
                         <img src={shop} alt="Image"/>
                     </div>

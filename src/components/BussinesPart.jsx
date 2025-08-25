@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import man from '../img/manOrange.svg'
 import analitic from '../img/analiticOrasngre.svg'
 import rocket from '../img/rocketOrange.svg'
@@ -7,6 +7,7 @@ import '../css/bussinespart.css'
 
 
 const BussinesPart = () => {
+    const [isInvolve, setIsInvolve] = useState(false);
   return (
     <section className='bussines-part mb-[100px]'>
 
@@ -63,9 +64,16 @@ const BussinesPart = () => {
                     </div>
                 </div>
             </div>
-            <div className='bussines-block-button flex items-center justify-center bg-[#FFFFFF] px-3 py-2 rounded-[8px]'>
+            <div className='bussines-block-button flex items-center justify-center bg-[#FFFFFF] px-3 py-2 rounded-[8px] relative'
+            onMouseEnter={() => setIsInvolve(true)}
+            onMouseLeave={() => setIsInvolve(false)}
+            >
                 <a href='#' className='btn-add text-[#FF6138] flex gap-3'>Долучи свій біснес <img src={casebox} alt="Image"/></a>
-                
+                {isInvolve && (
+                  <div className="absolute top-[50px] left-8 bg-black p-2 rounded-xl shadow">
+                    <p className="text-bold text-white">в процесі наповнення</p>
+                  </div>
+                )}
             </div>
         </div>
 
