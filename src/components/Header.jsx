@@ -20,7 +20,9 @@ const Header = () => {
                 </h2>
             </div>
             <div className='relative'
-            onMouseEnter={() => setIsDownload(true)}
+            onClick={(e) =>{ 
+              e.preventDefault()
+               setIsDownload(true)}}
             onMouseLeave={() => setIsDownload(false)}
             >
             {isDownload && (

@@ -12,7 +12,8 @@ const AdditionalBlockOFquestion = () => {
             <p>Зв'яжіться з нами для допомоги.</p>
         </div>
         <div className='additional-block-button relative'
-        onMouseEnter={() => setIsContact(true)}
+        onClick={(e) => {e.preventDefault()
+          setIsContact(true)}}
         onMouseLeave={() => setIsContact(false)}
         >
             <a href='#' className='btn'>Контакт</a>

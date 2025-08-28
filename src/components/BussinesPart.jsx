@@ -65,7 +65,9 @@ const BussinesPart = () => {
                 </div>
             </div>
             <div className='bussines-block-button flex items-center justify-center bg-[#FFFFFF] px-3 py-2 rounded-[8px] relative'
-            onMouseEnter={() => setIsInvolve(true)}
+            onClick={(e) =>{ 
+              e.preventDefault()
+               setIsInvolve(true)}}
             onMouseLeave={() => setIsInvolve(false)}
             >
                 <a href='#' className='btn-add text-[#FF6138] flex gap-3'>Долучи свій біснес <img src={casebox} alt="Image"/></a>

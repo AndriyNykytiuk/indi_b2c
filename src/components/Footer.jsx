@@ -6,6 +6,7 @@ import inst from '../img/Instagram.svg'
 import x from '../img/X.svg'
 import lin from '../img/LinkedIn.svg'
 import youtube from '../img/Youtube.svg'
+import '../links.js'
 const Footer = () => {
   return (
     <footer className= 'footer'>

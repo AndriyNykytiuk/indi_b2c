@@ -67,7 +67,9 @@ const Navbar = () => {
         </div>
         <ul  className={`navbar-list flex items-center gap-6 ${isOpen ? 'open' : ''}`}>
           <li className='relative'
-          onMouseEnter={() => setIsMain(true)}
+          onClick={(e) =>{ 
+              e.preventDefault()
+              setIsMain(true)}}
           onMouseLeave={() => setIsMain(false)}
           >
             {isMain && (
@@ -77,7 +79,9 @@ const Navbar = () => {
             )}
             <a href="#" className="navbar-link px-4" onClick={()=>setIsOpen(false)}>Головна</a></li>
           <li className='relative'
-          onMouseEnter={() => setIsAbout(true)}
+          onClick={(e) =>{ 
+              e.preventDefault() 
+              setIsAbout(true)}}
           onMouseLeave={() => setIsAbout(false)}
           >
             {isAbout && (
@@ -87,7 +91,9 @@ const Navbar = () => {
             )}
             <a href="#" className="navbar-link px-4" onClick={()=>setIsOpen(false)}>Про нас</a></li>
           <li className='relative'
-          onMouseEnter={() => setIsServices(true)}
+          onClick={(e) =>{ 
+              e.preventDefault()
+               setIsServices(true)}}
           onMouseLeave={() => setIsServices(false)}
           >
             {isServices && (
@@ -97,7 +103,9 @@ const Navbar = () => {
             )}
             <a href="#" className="navbar-link px-4" onClick={()=>setIsOpen(false)}>Послуги</a></li>
           <li className='relative'
-          onMouseEnter={() => setIsContacts(true)}
+          onClick={(e) =>{ 
+              e.preventDefault()
+               setIsContacts(true)}}
           onMouseLeave={() => setIsContacts(false)}
           >
             {isContacts && (
@@ -108,7 +116,9 @@ const Navbar = () => {
             <a href="#" className="navbar-link px-4" onClick={()=>setIsOpen(false)}>Контакти</a></li>
         </ul>
         <div className='relative'
-        onMouseEnter={() => setIsPromised(true)}
+        onClick={(e) =>{ 
+              e.preventDefault()
+               setIsPromised(true)}}
         onMouseLeave={() => setIsPromised(false)}
         >
           {isPromised && (
