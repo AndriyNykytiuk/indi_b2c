@@ -1,5 +1,10 @@
 import React from 'react'
 import alina from '../img/alina.png'
+import anna from '../img/Anna.png'
+import ighor from '../img/Ighor.png'
+import oksana from '../img/Oksana.png'
+import artem from '../img/Artem.png'
+import maria from '../img/Maria.png'
 import StarRatings from 'react-star-ratings'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay,Navigation } from 'swiper/modules';
@@ -54,7 +59,9 @@ const UserReview = () => {
                             </p>
                         </div>
                         <div className='item-author'>
-                            <img src={alina} alt="Image"/>
+                            <div className=' item-autor-pict'>
+                            <img src={anna} alt="Image"/>
+                            </div>
                             <p className='text-[#667085] text-[16px]'>Анна Левченко, 25 років</p>
                             <p className='mb-[20px]'>Neczq12</p>
                             <StarRatings
@@ -77,7 +84,9 @@ const UserReview = () => {
                                     </p>
                             </div>
                                 <div className='item-author'>
-                                    <img src={alina} alt="Image"/>
+                                     <div className=' item-autor-pict'>
+                                        <img src={ighor} alt="Image"/>
+                                    </div>
                                     <p className='text-[#667085] text-[16px]'>Ігор Мельник, 27 років</p>
                                     <p className='mb-[20px]'>Neczq12</p>
                                     <StarRatings
@@ -100,7 +109,9 @@ const UserReview = () => {
                                 </p>
                             </div>
                             <div className='item-author'>
-                                <img src={alina} alt="Image"/>
+                                 <div className=' item-autor-pict'>
+                                         <img src={oksana} alt="Image"/>
+                                </div>
                                 <p className='text-[#667085] text-[16px]'>Оксана Шевчук, 30 років</p>
                                 <p className='mb-[20px]'>Neczq12</p>
                                 <StarRatings
@@ -123,7 +134,9 @@ const UserReview = () => {
                             </p>
                         </div>
                         <div className='item-author'>
-                            <img src={alina} alt="Image"/>
+                             <div className=' item-autor-pict'>
+                                <img src={artem} alt="Image"/>
+                            </div>
                             <p className='text-[#667085] text-[16px]'> Артем Кравцов, 26 років</p>
                             <p className='mb-[20px]'>Neczq12</p>
                             <StarRatings
@@ -146,7 +159,9 @@ const UserReview = () => {
                             </p>
                         </div>
                         <div className='item-author'>
-                            <img src={alina} alt="Image"/>
+                                 <div className=' item-autor-pict'>
+                                    <img src={maria} alt="Image"/>
+                                </div>
                             <p className='text-[#667085] text-[16px]'>Марія Поліщук, 25 років</p>
                             <p className='mb-[20px]'>Neczq12</p>
                             <StarRatings
