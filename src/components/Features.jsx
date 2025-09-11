@@ -1,6 +1,7 @@
 import React,{useRef} from 'react'
 import '../css/features.css'
 import { motion } from 'framer-motion'
+import FineTuningVideo from './FineTuningVideo'
 import { item1Animate,item2Animate,item3Animate,visibleTextBlock } from '../animate/animations'
 
 const Features = () => {
@@ -107,6 +108,11 @@ const Features = () => {
                </div>
                 </motion.div>
              </div>
+            </div>
+            <div className='features-items right flex-grow flex items-stretch '>
+              <div className='features-content-item right p-4 flex flex-col items-center justify-center flex-grow'>
+                <FineTuningVideo />
+              </div>
             </div>
         </div>
       </div>
