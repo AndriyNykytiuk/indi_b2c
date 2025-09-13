@@ -31,7 +31,7 @@ const FineTuningVideo = () => {
     <div
       style={{
         position: 'relative',
-        paddingBottom: '170%',
+        paddingBottom: '200%',
         height: 0,
         width: '100%',
         borderRadius: '20px',
@@ -40,7 +40,6 @@ const FineTuningVideo = () => {
     >
       <video
         ref={videoRef}
-        controls
         src={moovie}
         type="video/mp4"
         muted
