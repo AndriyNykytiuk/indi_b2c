@@ -2,7 +2,7 @@ import React,{useRef} from 'react'
 import '../css/features.css'
 import { motion } from 'framer-motion'
 import FineTuningVideo from './FineTuningVideo'
-import { item1Animate,item2Animate,item3Animate,visibleTextBlock } from '../animate/animations'
+import { item1Animate,item3Animate,visibleTextBlock } from '../animate/animations'
 
 const Features = () => {
   const item1Ref=useRef(null)

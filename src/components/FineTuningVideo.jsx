@@ -4,28 +4,7 @@ import moovie from '../video/video.mp4';
 const FineTuningVideo = () => {
   const videoRef = useRef(null);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          videoRef.current?.play();
-        } else {
-          videoRef.current?.pause();
-        }
-      },
-      { threshold: 0.5 } // 50% відео в viewport
-    );
 
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
-    }
-
-    return () => {
-      if (videoRef.current) {
-        observer.unobserve(videoRef.current);
-      }
-    };
-  }, []);
 
   return (
     <div
@@ -42,6 +21,7 @@ const FineTuningVideo = () => {
         ref={videoRef}
         src={moovie}
         type="video/mp4"
+        controls
         muted
         style={{
           position: 'absolute',
