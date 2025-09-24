@@ -22,7 +22,6 @@ const FineTuningVideo = () => {
         src={moovie}
         type="video/mp4"
         controls
-        muted
         style={{
           position: 'absolute',
           top: 0,

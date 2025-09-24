@@ -177,7 +177,7 @@
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   border-radius: 0px 0px 2px 2px;
-  trasition: all 0.3s ease-in ;
+  transition: all 0.3s ease-in ;
   -webkit-border-radius: 0px 0px 2px 2px;
   -moz-border-radius: 0px 0px 2px 2px;
   -ms-border-radius: 0px 0px 2px 2px;
