@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../css/footer.css'
 import orangeLogo from '../img/orangeLogo.svg'
 import fb from '../img/Facebook.svg'
@@ -125,7 +126,8 @@ const Footer = () => {
                             <li className='relative'>
                                 <a href={`${import.meta.env.BASE_URL}PrivacyPolicy.pdf`} target="_blank">Політика конфіденційності</a></li>
                             <li className='relative'>
-                                <a href={`${import.meta.env.BASE_URL}finalpublicoffer.pdf`} target="_blank" >Договір публічної оферти</a></li>
+                                <Link to="/oferta" onClick={() => window.scrollTo(0,0)}>Договір публічної оферти</Link>
+                            </li>
                             <li
                                 className='relative'
                                 onClick={(e) => {

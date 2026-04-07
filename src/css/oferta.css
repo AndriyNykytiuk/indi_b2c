@@ -1,0 +1,82 @@
+.public-offerta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.public-offerta-title{
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+.public-offerta-sub-title{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+.public-offerta-text{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+.public-offerta-text p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.public-offerta-text h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+
+.public-offerta-text h4{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    padding-left: 20px;
+    margin-bottom: 0.5rem;
+}
+.public-offerta-text ul{
+    padding-left: 20px;
+    margin-bottom: 1rem;
+}
+.public-offerta-text ul li{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 20px;
+    margin-bottom: 0.3rem;
+}
+.oferta-link p{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5rem;
+   margin-bottom: 1rem;
+   font-size: 18px;
+   font-weight: 700;
+}
+a:hover{
+    color: #FF6B00;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}

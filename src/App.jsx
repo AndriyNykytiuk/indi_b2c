@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import Swipercomponent from './components/Swipercomponent'
@@ -11,25 +12,38 @@ import BussinesPart from './components/BussinesPart'
 import WhyIndi from './components/WhyIndi'
 import Features  from './components/Features'
 import UserReview from './components/UserReview'
+import Publicofferta from './components/Publicofferta'
 
 // Main App component
 function App() {
 
   return (
-    <>
-      <Header />
-      <Swipercomponent />
-      <WhyIndi />
-      <HowItDoesWork />
-      <Features />
-      <UserReview />
-      <BussinesPart />
-      <Questions />
-      <FAQ />
-      
-      <AdditionalBlockOFquestion />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Header />
+            <Swipercomponent />
+            <WhyIndi />
+            <HowItDoesWork />
+            <Features />
+            <UserReview />
+            <BussinesPart />
+            <Questions />
+            <FAQ />
+            <AdditionalBlockOFquestion />
+            <Footer />
+          </>
+        } />
+        <Route path="/oferta" element={
+          <>
+            <Header hideHero={true} />
+            <Publicofferta />
+            <Footer />
+          </>
+        } />
+      </Routes>
+    </Router>
   )
 }
 
