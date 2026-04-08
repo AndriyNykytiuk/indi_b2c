@@ -18,7 +18,6 @@ const Footer = () => {
     const [isLin, setIsLin] = useState(false);
     const [isYoutube, setIsYoutube] = useState(false);
     const [isPolicy, setIsPolicy] = useState(false);
-
     const [isSupport, setIsSupport] = useState(false);
     const [isCookies, setIsCookies] = useState(false);
 
@@ -124,10 +123,10 @@ const Footer = () => {
                         <ul className='bottom-list'>
                             <li><h4>© 2025 INDI. Всі права захищені.</h4></li>
                             <li className='relative'>
-                                <Link to="/policy" onClick={() => window.scrollTo(0,0)} >Політика конфіденційності</Link>
+                                <Link to="/policy" onClick={() => window.scrollTo(0, 0)} >Політика конфіденційності</Link>
                             </li>
                             <li className='relative'>
-                                <Link to="/oferta" onClick={() => window.scrollTo(0,0)}>Договір публічної оферти</Link>
+                                <Link to="/oferta" onClick={() => window.scrollTo(0, 0)}>Договір публічної оферти</Link>
                             </li>
                             <li
                                 className='relative'
