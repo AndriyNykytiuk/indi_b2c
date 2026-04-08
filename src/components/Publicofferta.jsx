@@ -8,7 +8,7 @@ const Publicofferta = () => {
                 <div className='public-offerta-top top row-span-2 items-start'>
                     <div className='public-offerta-title'>
                       <h2>
-                        ПУБЛІЧНИЙ ДОГОВІР-ОФЕРТА
+                        ПУБЛІЧНИЙ ДОГОВІР-ОФЕРТА<br />
                         про надання доступу до цифрового сервісу INDI.
                       </h2>
                     </div>

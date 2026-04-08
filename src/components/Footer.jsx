@@ -124,7 +124,8 @@ const Footer = () => {
                         <ul className='bottom-list'>
                             <li><h4>© 2025 INDI. Всі права захищені.</h4></li>
                             <li className='relative'>
-                                <a href={`${import.meta.env.BASE_URL}PrivacyPolicy.pdf`} target="_blank">Політика конфіденційності</a></li>
+                                <Link to="/policy" onClick={() => window.scrollTo(0,0)} >Політика конфіденційності</Link>
+                            </li>
                             <li className='relative'>
                                 <Link to="/oferta" onClick={() => window.scrollTo(0,0)}>Договір публічної оферти</Link>
                             </li>

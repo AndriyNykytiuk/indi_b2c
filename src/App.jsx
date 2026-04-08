@@ -13,6 +13,7 @@ import WhyIndi from './components/WhyIndi'
 import Features  from './components/Features'
 import UserReview from './components/UserReview'
 import Publicofferta from './components/Publicofferta'
+import Policy from './components/Policy'
 
 // Main App component
 function App() {
@@ -39,6 +40,13 @@ function App() {
           <>
             <Header hideHero={true} />
             <Publicofferta />
+            <Footer />
+          </>
+        } />
+        <Route path="/policy" element={
+          <>
+            <Header hideHero={true} />
+            <Policy />
             <Footer />
           </>
         } />
